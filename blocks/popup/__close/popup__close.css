@@ -5,3 +5,7 @@
     left: 450px;
     top: -50px;
 }
+
+.popup__close:hover {
+    opacity: 0.6;
+}
