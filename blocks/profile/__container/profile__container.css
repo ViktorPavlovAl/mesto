@@ -1,3 +1,10 @@
 .profile__container {
     display: flex;
 }
+
+@media (max-width: 700px) {
+    .profile__container {
+        padding-top: 26px;
+        align-items: baseline
+    }
+}
