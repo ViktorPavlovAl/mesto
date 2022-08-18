@@ -6,8 +6,17 @@
     margin: 0;
     border: 0;
     border-radius: 2px;
+    font-size: 18px;
+    line-height: 1.2;
 }
 
 .poppup__save:hover {
     opacity: 0.8;
+}
+
+@media (max-width: 550px) {
+    .poppup__save {
+        font-size: 14px;
+        line-height: 1.2;
+    }
 }
