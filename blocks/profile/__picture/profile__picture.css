@@ -1,6 +1,11 @@
 .profile__picture {
     width: 24px;
     height: 24px;
+    background-image: url(../../../images/edit.svg);
+    border: 1px solid #FFF;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .profile__picture:hover {

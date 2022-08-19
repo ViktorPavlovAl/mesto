@@ -10,4 +10,4 @@
 Используемые технологии:
 HTML/CSS/JS/Git
 
-Cсылкf на GitHub Pages: 
+Cсылкf на GitHub Pages: https://viktorpavloval.github.io/mesto/

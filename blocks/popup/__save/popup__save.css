@@ -8,6 +8,7 @@
     border-radius: 2px;
     font-size: 18px;
     line-height: 1.2;
+    margin-top: 26px;
 }
 
 .popup__save:hover {
@@ -17,6 +18,5 @@
 @media (max-width: 550px) {
     .popup__save {
         font-size: 14px;
-        line-height: 1.2;
     }
 }

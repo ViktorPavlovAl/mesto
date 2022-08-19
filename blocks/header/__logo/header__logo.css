@@ -1,6 +1,8 @@
 .header__logo {
     width: 142px;
     height: 33px;
+    padding-top: 45px;
+    padding-bottom: 36px;
 }
 
 .header__logo:hover {
@@ -12,5 +14,7 @@
         width: 103px;
         height: 24px;
         padding-left: 27px;
+        padding-top: 28px;
+        padding-bottom: 31px;
     }
 }
