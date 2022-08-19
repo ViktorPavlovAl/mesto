@@ -10,10 +10,15 @@
     padding-top: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .profile__description {
         font-size: 14px;
         line-height: 1.2;
+    }
+}
+
+@media (max-width: 500px) {
+    .profile__description {
         padding-left: 18px;
         padding-top: 10px;
         padding-bottom: 3px;
