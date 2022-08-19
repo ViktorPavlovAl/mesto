@@ -10,7 +10,6 @@
 @media (max-width: 320px) {
     .footer__copyright {
         font-size: 14px;
-        line-height: 1.2;
         padding-left: 19px;
     }
 }
