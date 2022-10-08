@@ -22,7 +22,7 @@
 
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__favorite/place__favorite.css);
-@import url(../blocks/place/__favorite/_active/place__fevorite_active.css);
+@import url(../blocks/place/__favorite/_active/place__favorite_active.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__info/place__info.css);
 @import url(../blocks/place/__text/place__text.css);

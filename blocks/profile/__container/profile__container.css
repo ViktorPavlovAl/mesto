@@ -3,9 +3,15 @@
     align-items: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 870px) {
     .profile__container {
         padding-top: 16px;
         align-items: baseline;
+    }
+}
+
+@media (max-width: 620px) {
+    .profile__container {
+        width: 100%;
     }
 }
