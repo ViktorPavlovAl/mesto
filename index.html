@@ -24,51 +24,55 @@
                     </div>
                     <p class="profile__description">Исследователь океана</p>
                 </div>
-                <button class="profile__add-button"  type="button"></button>
+                <div>
+                    <button class="profile__add-button"  type="button"></button>
+                </div>
             </section>
-            <section class="elements">
-                <div class="elements__element place">
-                    <img class="place__image" src="./images/karachaevsk.jpg" alt="Карачаевск">
-                    <div class="place__info">
-                        <h2 class="place__text">Карачаевск</h2>
-                        <button class="place__favorite" type="button"></button>
-                    </div>
-                </div>
-                <div class="elements__element place">
-                    <img class="place__image" src="./images/elbrus.jpg" alt="Гора Эльбрус">
-                    <div class="place__info">
-                        <h2 class="place__text">Гора Эльбрус</h2>
-                        <button class="place__favorite" type="button"></button>
-                    </div>
-                </div>
-                <div class="elements__element place">
-                    <img class="place__image" src="./images/dombay.jpg" alt="Домбай">
-                    <div class="place__info">
-                        <h2 class="place__text">Домбай</h2>
-                        <button class="place__favorite" type="button"></button>
-                    </div>
-                </div>
-                <div class="elements__element place">
-                    <img class="place__image" src="images/elbrus2.jpg" alt="Гора Эльбрус">
-                    <div class="place__info">
-                        <h2 class="place__text">Гора Эльбрус</h2>
-                        <button class="place__favorite" type="button"></button>
-                    </div>
-                </div>
-                <div class="elements__element place">
-                    <img class="place__image" src="./images/dombay2.jpg" alt="Домбай">
-                    <div class="place__info">
-                        <h2 class="place__text">Домбай</h2>
-                        <button class="place__favorite" type="button"></button>
-                    </div>
-                </div>
-                <div class="elements__element place">
-                    <img class="place__image" src="./images/karachaevo-cherkesiya.jpg" alt="Карачаево-Черкессия">
-                    <div class="place__info">
-                        <h2 class="place__text">Карачаево-Черкессия</h2>
-                        <button class="place__favorite" type="button"></button>
-                    </div>
-                </div>
+            <section>
+                <ul class="elements">
+                    <li class="elements__element place">
+                        <img class="place__image" src="./images/karachaevsk.jpg" alt="Карачаевск">
+                        <div class="place__info">
+                            <h2 class="place__text">Карачаевск</h2>
+                            <button class="place__favorite" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="elements__element place">
+                        <img class="place__image" src="./images/elbrus.jpg" alt="Гора Эльбрус">
+                        <div class="place__info">
+                            <h2 class="place__text">Гора Эльбрус</h2>
+                            <button class="place__favorite" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="elements__element place">
+                        <img class="place__image" src="./images/dombay.jpg" alt="Домбай">
+                        <div class="place__info">
+                            <h2 class="place__text">Домбай</h2>
+                            <button class="place__favorite" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="elements__element place">
+                        <img class="place__image" src="images/elbrus2.jpg" alt="Гора Эльбрус">
+                        <div class="place__info">
+                            <h2 class="place__text">Гора Эльбрус</h2>
+                            <button class="place__favorite" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="elements__element place">
+                        <img class="place__image" src="./images/dombay2.jpg" alt="Домбай">
+                        <div class="place__info">
+                            <h2 class="place__text">Домбай</h2>
+                            <button class="place__favorite" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="elements__element place">
+                        <img class="place__image" src="./images/karachaevo-cherkesiya.jpg" alt="Карачаево-Черкессия">
+                        <div class="place__info">
+                            <h2 class="place__text">Карачаево-Черкессия</h2>
+                            <button class="place__favorite" type="button"></button>
+                        </div>
+                    </li>
+                </ul>
             </section>
         </main>
         <footer class="footer">
@@ -79,8 +83,8 @@
         <div class="popup__container">
             <h2 class="popup__title">Редактировать профиль</h2>
             <form class="popup__input" name="form_change_info" method="POST">
-                <input type="text" placeholder="Имя" class="popup__field popup__name" name="field_name">
-                <input type="text" placeholder="Описание" class="popup__field popup__description" name="fiels_description">
+                <input type="text" placeholder="Имя" class="popup__field popup__field_type_name" name="field_name">
+                <input type="text" placeholder="Описание" class="popup__field popup__field_type_description" name="fiels_description">
                 <button class="popup__save" type="submit">
                     Сохранить
                 </button>
